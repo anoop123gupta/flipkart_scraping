@@ -3,6 +3,8 @@ from pprint import pprint
 import json
 import os
 from bs4 import BeautifulSoup
+
+print "hello"
 if os.path.isfile('flipkart.json'):
 	with open('flipkart.json','r')as file:
 		file_data=json.load(file)
